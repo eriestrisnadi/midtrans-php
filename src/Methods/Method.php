@@ -70,7 +70,7 @@ class Method
         try {
             $client = new Client([
                 'defaults' => [
-                    'verify' => dirname(__FILE__) . '/../cert/cacert.pem',
+                    'verify' => __DIR__ . '/../cert/cacert.pem',
                 ],
             ]);
             $response = $client->request($type, $url, [
