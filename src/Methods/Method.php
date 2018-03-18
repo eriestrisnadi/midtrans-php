@@ -68,10 +68,13 @@ class Method
     public static function clientRequest($url, $type, $data = null)
     {
         try {
-            $client = new Client();
+            $client = new Client([
+                'defaults' => [
+                    'verify' => dirname(__FILE__) . '/../cert/cacert.pem',
+                ],
+            ]);
             $response = $client->request($type, $url, [
                 'headers' => self::header(),
-                'verify' => dirname(__FILE__) . '/../cert/cacert.pem',
                 'json' => $data
             ]);
             
