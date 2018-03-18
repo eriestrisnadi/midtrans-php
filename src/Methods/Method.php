@@ -75,7 +75,7 @@ class Method
             ]);
             $response = $client->request($type, $url, [
                 'headers' => self::header(),
-                'json' => $data
+                'json' => $data,
             ]);
             
             $body = json_decode((string) $response->getBody());
