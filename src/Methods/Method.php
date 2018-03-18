@@ -71,6 +71,9 @@ class Method
             $client = new Client([
                 'defaults' => [
                     'verify' => __DIR__ . '/../cert/cacert.pem',
+                    'curl' => [
+                        CURLOPT_CAINFO => __DIR__ . '/../cert/cacert.pem'
+                    ],
                 ],
             ]);
             $response = $client->request($type, $url, [
