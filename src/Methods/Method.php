@@ -68,11 +68,15 @@ class Method
     public static function clientRequest($url, $type, $data = null)
     {
         try {
-            $client = new Client();
+            $client = new Client;
             $response = $client->request($type, $url, [
                 'headers' => self::header(),
-                'verify' => dirname(__FILE__) . '/../cert/cacert.pem',
-                'json' => $data
+                'json' => $data,
+                'verify' => false,
+                'curl' => [
+                    CURLOPT_SSL_VERIFYHOST => false,
+                    CURLOPT_SSL_VERIFYPEER => false,
+                ],
             ]);
             
             $body = json_decode((string) $response->getBody());
