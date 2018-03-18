@@ -42,13 +42,6 @@
             "Lowsprofile\\Midtrans\\Test\\": "tests/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "lint": "parallel-lint src tests",
         "phpunit": "phpunit --verbose --colors=always",
