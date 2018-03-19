@@ -70,18 +70,18 @@ Contributions are welcome! Please read [CONTRIBUTING][] for details.
 [MIT License][license] © 2017-Present [Eries Trisnadi](https://eries.id/). All rights reserved.
 
 [conduct]: https://github.com/lowsprofile/midtrans-php/blob/master/CODE_OF_CONDUCT.md
-[packagist]: https://packagist.org/packages/lowsprofile/midtrans-php
+[packagist]: https://packagist.org/packages/lowsprofile/midtrans
 [composer]: http://getcomposer.org/
 [wiki-docs]: https://github.com/lowsprofile/midtrans-php/wiki/Midtrans-Documentation
 [wiki-cookbook]: https://github.com/lowsprofile/midtrans-php/wiki/Midtrans-Cookbook
 [contributing]: https://github.com/lowsprofile/midtrans-php/blob/master/CONTRIBUTING.md
 
-[badge-source]: https://img.shields.io/badge/source-lowsprofile/midtrans-php-blue.svg
-[badge-release]: https://img.shields.io/packagist/v/lowsprofile/midtrans-php.svg
+[badge-source]: https://img.shields.io/badge/source-lowsprofile/midtrans-blue.svg
+[badge-release]: https://img.shields.io/packagist/v/lowsprofile/midtrans.svg
 [badge-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
 [badge-build]: https://img.shields.io/travis/lowsprofile/midtrans-php/master.svg
 [badge-coverage]: https://img.shields.io/coveralls/lowsprofile/midtrans-php/master.svg
-[badge-downloads]: https://img.shields.io/packagist/dt/lowsprofile/midtrans-php.svg
+[badge-downloads]: https://img.shields.io/packagist/dt/lowsprofile/midtrans.svg
 
 [source]: https://github.com/lowsprofile/midtrans-php
 [release]: https://packagist.org/packages/lowsprofile/midtrans
