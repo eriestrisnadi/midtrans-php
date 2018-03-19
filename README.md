@@ -5,7 +5,6 @@
 [![Software License][badge-license]][license]
 [![Build Status][badge-build]][build]
 [![Coverage Status][badge-coverage]][coverage]
-[![Total Downloads][badge-downloads]][downloads]
 
 Midtrans-PHP is a wrapper for Midtrans Payment Gateway API for PHP 5.6+. There is an emphasis of readability, simplicity, and flexibility – basically provide the features and flexibility to get the job done and make those features really easy to use.
 
@@ -85,8 +84,8 @@ Contributions are welcome! Please read [CONTRIBUTING][] for details.
 [badge-downloads]: https://img.shields.io/packagist/dt/lowsprofile/midtrans-php.svg
 
 [source]: https://github.com/lowsprofile/midtrans-php
-[release]: https://packagist.org/packages/lowsprofile/midtrans-php
+[release]: https://packagist.org/packages/lowsprofile/midtrans
 [license]: https://github.com/lowsprofile/midtrans-php/blob/master/LICENSE
-[build]: https://travis-ci.org/lowsprofile/midtrans-php
+[build]: https://travis-ci.org/lowsprofile/midtrans
 [coverage]: https://coveralls.io/r/lowsprofile/midtrans-php?branch=master
-[downloads]: https://packagist.org/packages/lowsprofile/midtrans-php
+[downloads]: https://packagist.org/packages/lowsprofile/midtrans
